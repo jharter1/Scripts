@@ -1,3 +1,3 @@
 #!/bin/bash
 # This is a basic bash script.
-cat /etc/os-release 
+sed -n -e 1p -e 2p /etc/os-release
